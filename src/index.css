@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500&family=Dancing+Script:wght@400;600&family=Josefin+Sans:wght@200;300&display=swap');
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +12,13 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+:root {
+  --primary: rgb(243, 94, 144);
+  --secondary: rgb(233, 139, 170);
+  --secondary-alt: rgb(228, 34, 99);
+  --white: #f4d6d6;
+  --black: #050404;
 }

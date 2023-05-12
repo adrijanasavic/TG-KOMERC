@@ -2,7 +2,7 @@ import React from "react";
 import Typical from "react-typical";
 import "./Home.css";
 
-export default function Profile() {
+export default function Home() {
   return (
     <div className="profile-container">
       <div className="profile-parent">
@@ -49,7 +49,7 @@ export default function Profile() {
           </div>
 
           <div className="profile-options">
-            <a href="CV_Adrijana_Savić.pdf" download="CV Adrijana Savić.pdf">
+            <a href="#">
               <button className=" btn-get">Saznajte više</button>
             </a>
           </div>

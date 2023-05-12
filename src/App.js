@@ -1,10 +1,13 @@
-import './App.css';
-import Home from "./components/Home/Home"
+import "./App.css";
+import Home from "./components/Home/Home";
+import { Outlet } from "react-router-dom";
+import Navbar from "./components/Navbar/Navbar";
 
 function App() {
   return (
-    <div className="App">
-      <Home/>
+    <div>
+      <Navbar />
+      <Outlet />
     </div>
   );
 }

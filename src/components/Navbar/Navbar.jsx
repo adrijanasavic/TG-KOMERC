@@ -19,6 +19,10 @@ function Navbar() {
           <i className="fas fa-home" aria-label="Home icon" />
           &nbsp;Home
         </Link>
+        <Link to="/about">
+          <i className="fas fa-address-card" aria-label="Home icon" />
+          &nbsp;About
+        </Link>
         <button className="nav-btn nav-close-btn" onClick={!showNavbar}>
           <FaTimes />
         </button>

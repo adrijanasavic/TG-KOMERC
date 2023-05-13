@@ -16,9 +16,9 @@ code {
 
 
 :root {
-  --primary: rgb(243, 94, 144);
-  --secondary: rgb(233, 139, 170);
-  --secondary-alt: rgb(228, 34, 99);
-  --white: #f4d6d6;
+  --primary: rgb(104, 99, 233);
+  --secondary: rgb(146, 143, 227);
+  --secondary-alt: rgb(56, 50, 219);
+  --white: #cbc9d2;
   --black: #050404;
 }
